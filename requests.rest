@@ -1,0 +1,14 @@
+GET http://localhost:7000/todos/
+###
+POST http://localhost:7000/todo/new
+Content-Type: application/json
+
+{
+  "text": "hello world"
+}
+
+###
+DELETE http://localhost:7000/todo/delete/63b892b95d6911d5d3868759
+
+###
+PUT http://localhost:7000/todo/complete/63b8931b5d6911d5d386875d
